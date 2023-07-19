@@ -2,7 +2,7 @@ import  openai
 from openai import Completion
 import time
 import speech_recognition as sr
-openai.api_key = "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"
+openai.api_key = ""
 def speechtotext():
         r=sr.Recognizer()
         with sr.Microphone() as source:
